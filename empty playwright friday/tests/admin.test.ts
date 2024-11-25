@@ -6,6 +6,7 @@ shopTestLoggedUser(
     await dashboard.open();
     await dashboard.expectedMenuItemVisible("Reviews");
     await dashboard.expectedMenuItemVisible("Orders");
+    await dashboard.expectedMenuItemVisible("Orders");
     await dashboard.expectedMenuItemVisible("Users");
   }
 );
